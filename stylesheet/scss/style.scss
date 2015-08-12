@@ -2,13 +2,22 @@
 
 @import "components/variables";
 
-@import "mixins/mixins";
-
 body{
   background: $body-background-color;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 14px;
 }
 
-header{
-  background: $primary-color;
-  @include getTextColor($primary-color);
+.clear{
+  overflow: auto;
+  width: 100%;
 }
+
+.container{
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  background: darken($body-background-color, 10%);
+}
+
+@import "modules/profile-details-section";

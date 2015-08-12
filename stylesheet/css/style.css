@@ -165,12 +165,55 @@ th {
   padding: 0; }
 
 body {
-  background: #eee; }
+  background: #eee;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 14px; }
 
-header {
-  background: #fff;
-  color: #333; }
-  header else {
-    color: #ccc; }
+.clear {
+  overflow: auto;
+  width: 100%; }
+
+.container {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  background: #d5d5d5; }
+
+#profile-details-section {
+  background: #3E3C6D;
+  color: #eee; }
+
+.profile-details-photo {
+  background-image: url("../../images/prachee-clipped.png");
+  background-repeat: no-repeat;
+  height: 140px;
+  margin: 0px auto 10px;
+  width: 130px; }
+  @media screen and (min-width: 700px) {
+    .profile-details-photo {
+      float: left;
+      width: 30%;
+      background-position: center center;
+      margin-top: 10px; } }
+
+.profile-details-name {
+  background-color: #6F4B01;
+  font-size: 40px;
+  margin: 0;
+  padding: 10px;
+  text-align: center; }
+
+.profile-details-designation {
+  background-color: #633A0E;
+  font-size: 32px;
+  margin: 0;
+  padding: 10px;
+  text-align: center; }
+
+@media screen and (min-width: 700px) {
+  .profile-details-name,
+  .profile-details-designation {
+    margin-left: 30%;
+    padding: 15px; } }
 
 /*# sourceMappingURL=style.css.map */

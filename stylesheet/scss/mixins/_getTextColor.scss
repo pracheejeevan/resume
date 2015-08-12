@@ -1,7 +1,0 @@
-@mixin getTextColor($color){
-  @if(lightness($color) > 40%){
-    color: #333;
-  }else{
-    color: #ccc;
-  }
-}
