@@ -1,0 +1,14 @@
+@import "../../bower_components/normalize.sass/normalize";
+
+@import "components/variables";
+
+@import "mixins/mixins";
+
+body{
+  background: $body-background-color;
+}
+
+header{
+  background: $primary-color;
+  @include getTextColor($primary-color);
+}
