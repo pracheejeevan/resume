@@ -18,6 +18,7 @@ body{
   width: 100%;
   margin: 0 auto;
   background: darken($body-background-color, 10%);
+  display: none;
 }
 
-@import "modules/profile-details-section";
+@import "modules/modules";
