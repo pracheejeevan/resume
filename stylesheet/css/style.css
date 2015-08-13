@@ -200,7 +200,7 @@ body {
     transform: translateX(-50%); }
 
 #profile-details-section {
-  background: #3E3C6D;
+  background: #333;
   color: #eee; }
 
 .profile-details-photo {
@@ -217,14 +217,14 @@ body {
       margin-top: 10px; } }
 
 .profile-details-name {
-  background-color: #6F4B01;
+  background-color: #4d4d4d;
   font-size: 40px;
   margin: 0;
   padding: 10px;
   text-align: center; }
 
 .profile-details-designation {
-  background-color: #633A0E;
+  background-color: #666666;
   font-size: 32px;
   margin: 0;
   padding: 10px;

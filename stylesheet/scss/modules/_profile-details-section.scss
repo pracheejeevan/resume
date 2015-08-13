@@ -1,5 +1,6 @@
+$profile-background: #333;
 #profile-details-section{
-  background: #3E3C6D;
+  background: $profile-background;
   color: #eee;
 }
 .profile-details-photo{
@@ -16,14 +17,14 @@
   }
 }
 .profile-details-name{
-  background-color: #6F4B01;
+  background-color: lighten($profile-background, 10%);
   font-size: 40px;
   margin: 0;
   padding: $spacing-between-blocks;
   text-align: center;
 }
 .profile-details-designation{
-  background-color: #633A0E;
+  background-color: lighten($profile-background, 20%);
   font-size: 32px;
   margin: 0;
   padding: 10px;
