@@ -201,7 +201,8 @@ body {
 
 #profile-details-section {
   background: #333;
-  color: #eee; }
+  color: #eee;
+  overflow: auto; }
 
 .profile-details-photo {
   background-image: url("../../images/prachee-clipped.png");
@@ -235,5 +236,13 @@ body {
   .profile-details-designation {
     margin-left: 30%;
     padding: 15px; } }
+#credits-section {
+  text-align: center;
+  padding: 5px; }
+
+.icon-heartbeat,
+.icon-smile {
+  color: #CE1D0C;
+  font-size: 1.2em; }
 
 /*# sourceMappingURL=style.css.map */

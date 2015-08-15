@@ -2,6 +2,7 @@ $profile-background: #333;
 #profile-details-section{
   background: $profile-background;
   color: #eee;
+  overflow:auto;
 }
 .profile-details-photo{
   background-image: url('../../images/prachee-clipped.png');
