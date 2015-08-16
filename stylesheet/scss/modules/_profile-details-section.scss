@@ -9,6 +9,7 @@ $profile-details-designation-background-color: lighten($profile-background-color
 }
 .profile-details-photo{
   background-image: url('../../images/prachee-clipped.png');
+  background-size: 110px auto;
   background-repeat: no-repeat;
   height: 140px;
   margin: 0px auto $spacing-between-blocks;
@@ -40,6 +41,6 @@ $profile-details-designation-background-color: lighten($profile-background-color
   .profile-details-name,
   .profile-details-designation{
     margin-left: 30%;
-    padding: 20px 15px;
+    padding: 15px;
   }
 }

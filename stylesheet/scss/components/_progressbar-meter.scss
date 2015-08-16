@@ -2,7 +2,7 @@ $skill-container-background-color: lighten($primary-color, 60%);
 $skill-container-border-color: $primary-color;
 
 .skill{
-  margin-bottom: 10px;
+  margin-bottom: $section-spacing-around;
   .skill-container{
     background: $skill-container-background-color;
     border: $skill-container-border-color solid 1px;
@@ -17,7 +17,7 @@ $skill-container-border-color: $primary-color;
   .skill-text{
     position: absolute;
     left: 5px;
-    top: 7px;
+    top: 5px;
     color: invert($skill-container-border-color);
   }
 }

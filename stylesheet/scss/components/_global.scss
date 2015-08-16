@@ -1,8 +1,12 @@
+$section-dark-background-color: lighten($primary-color, 20%);
+$section-dark-text-color: invert($primary-color);
+$section-spacing-around: $spacing-between-blocks;
+
 body{
   background: $body-background-color;
   @include get-text-color($body-background-color);
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 14px;
+  font-size: 15px;
 }
 .clearfix {
   *zoom: 1;
@@ -24,4 +28,13 @@ body{
 }
 .section-header{
   margin: 0 0 10px;
+  font-size: 25px;
+}
+
+.section{
+  padding: $section-spacing-around;
+  &.even{
+    background: $section-dark-background-color;
+    color: $section-dark-text-color;
+  }
 }

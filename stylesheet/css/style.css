@@ -168,7 +168,7 @@ body {
   background: #f7f7f7;
   color: #080808;
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 14px; }
+  font-size: 15px; }
 
 .clearfix {
   *zoom: 1; }
@@ -186,7 +186,14 @@ body {
   display: none; }
 
 .section-header {
-  margin: 0 0 10px; }
+  margin: 0 0 10px;
+  font-size: 25px; }
+
+.section {
+  padding: 10px; }
+  .section.even {
+    background: #444444;
+    color: #eeeeee; }
 
 .skill {
   margin-bottom: 10px; }
@@ -202,7 +209,7 @@ body {
   .skill .skill-text {
     position: absolute;
     left: 5px;
-    top: 7px;
+    top: 5px;
     color: #eeeeee; }
 
 .loader {
@@ -231,6 +238,7 @@ body {
 
 .profile-details-photo {
   background-image: url("../../images/prachee-clipped.png");
+  background-size: 110px auto;
   background-repeat: no-repeat;
   height: 140px;
   margin: 0px auto 10px;
@@ -261,7 +269,7 @@ body {
   .profile-details-name,
   .profile-details-designation {
     margin-left: 30%;
-    padding: 20px 15px; } }
+    padding: 15px; } }
 #credits-section {
   text-align: center;
   padding: 5px;
