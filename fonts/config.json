@@ -23,6 +23,12 @@
       "css": "smile",
       "code": 59394,
       "src": "fontawesome"
+    },
+    {
+      "uid": "7b16b22168e762c88333f465da862098",
+      "css": "ok",
+      "code": 59395,
+      "src": "websymbols"
     }
   ]
 }

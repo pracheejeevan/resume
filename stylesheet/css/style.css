@@ -292,4 +292,15 @@ body {
     width: 49%;
     margin-right: 10px; } }
 
+.techniques-list {
+  padding: 0;
+  padding-left: 20px; }
+  .techniques-list li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 10px; }
+    .techniques-list li .icon-ok {
+      margin-left: -20px;
+      margin-right: 10px; }
+
 /*# sourceMappingURL=style.css.map */
