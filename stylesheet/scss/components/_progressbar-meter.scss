@@ -1,0 +1,23 @@
+$skill-container-background-color: lighten($primary-color, 60%);
+$skill-container-border-color: $primary-color;
+
+.skill{
+  margin-bottom: 10px;
+  .skill-container{
+    background: $skill-container-background-color;
+    border: $skill-container-border-color solid 1px;
+    position: relative;
+  }
+  .skill-completed{
+    background: $skill-container-border-color;
+    padding: 15px 0;
+    float: left;
+    width: 15%;
+  }
+  .skill-text{
+    position: absolute;
+    left: 5px;
+    top: 7px;
+    color: invert($skill-container-border-color);
+  }
+}

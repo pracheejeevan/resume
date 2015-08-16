@@ -1,6 +1,8 @@
 #credits-section{
   text-align: center;
   padding: 5px;
+  background: $primary-color;
+  color: invert($primary-color);
 }
 .icon-heartbeat,
 .icon-smile{

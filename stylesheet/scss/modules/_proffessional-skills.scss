@@ -1,0 +1,15 @@
+#proffessional-skills{
+  padding: 10px;
+}
+.proffessional-skills-description{
+  .skill{
+    &:nth-child(2n){
+      margin-right: 0;
+    }
+    @media screen and (min-width: 530px){
+      float: left;
+      width: 49%;
+      margin-right: 10px;
+    }
+  }
+}

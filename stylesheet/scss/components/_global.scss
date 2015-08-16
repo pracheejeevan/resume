@@ -1,0 +1,27 @@
+body{
+  background: $body-background-color;
+  @include get-text-color($body-background-color);
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 14px;
+}
+.clearfix {
+  *zoom: 1;
+  &:before,
+  &:after {
+    display: table;
+    content: "";
+  }
+  &:after {
+    clear: both;
+  }
+}
+.container{
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  background: darken($body-background-color, 10%);
+  display: none;
+}
+.section-header{
+  margin: 0 0 10px;
+}

@@ -165,8 +165,8 @@ th {
   padding: 0; }
 
 body {
-  background: #f7f7f7;
-  color: #080808;
+  background: white;
+  color: black;
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 14px; }
 
@@ -182,28 +182,8 @@ body {
   max-width: 960px;
   width: 100%;
   margin: 0 auto;
-  background: #dddddd;
+  background: #fbddd0;
   display: none; }
-
-.section-header {
-  margin: 0 0 10px; }
-
-.skill {
-  margin-bottom: 10px; }
-  .skill .skill-container {
-    background: #aaaaaa;
-    border: #111 solid 1px;
-    position: relative; }
-  .skill .skill-completed {
-    background: #111;
-    padding: 15px 0;
-    float: left;
-    width: 15%; }
-  .skill .skill-text {
-    position: absolute;
-    left: 5px;
-    top: 7px;
-    color: #eeeeee; }
 
 .loader {
   position: absolute;
@@ -213,8 +193,8 @@ body {
   right: 0;
   opacity: 0.9;
   filter: alpha(opacity=90%);
-  background: #111;
-  color: #eeeeee;
+  background: #90340C;
+  color: #6fcbf3;
   text-align: center; }
   .loader .loader-text {
     font-size: 25px;
@@ -225,8 +205,8 @@ body {
     transform: translateX(-50%); }
 
 #profile-details-section {
-  background: #111;
-  color: #eeeeee;
+  background: #90340C;
+  color: #6fcbf3;
   overflow: auto; }
 
 .profile-details-photo {
@@ -243,15 +223,15 @@ body {
       margin-top: 10px; } }
 
 .profile-details-name {
-  background-color: #2b2b2b;
-  color: #d4d4d4;
+  background-color: #bf4510;
+  color: #40baef;
   font-size: 40px;
   margin: 0;
   padding: 10px;
   text-align: center; }
 
 .profile-details-designation {
-  background-color: #444444;
+  background-color: #ec5716;
   font-size: 32px;
   margin: 0;
   padding: 10px;
@@ -261,12 +241,12 @@ body {
   .profile-details-name,
   .profile-details-designation {
     margin-left: 30%;
-    padding: 20px 15px; } }
+    padding: 15px; } }
 #credits-section {
   text-align: center;
   padding: 5px;
-  background: #111;
-  color: #eeeeee; }
+  background: #90340C;
+  color: #6fcbf3; }
 
 .icon-heartbeat,
 .icon-smile {
@@ -276,12 +256,18 @@ body {
 #proffessional-skills {
   padding: 10px; }
 
-.proffessional-skills-description .skill:nth-child(2n) {
-  margin-right: 0; }
-@media screen and (min-width: 530px) {
-  .proffessional-skills-description .skill {
-    float: left;
-    width: 49%;
-    margin-right: 10px; } }
+.skill .skill-container {
+  background: #fbdfd3;
+  border: #90340C solid 1px;
+  position: relative; }
+.skill .skill-completed {
+  background: #90340C;
+  padding: 10px 0;
+  float: left;
+  width: 80%; }
+.skill .skill-text {
+  position: absolute;
+  left: 5px;
+  color: #6fcbf3; }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=

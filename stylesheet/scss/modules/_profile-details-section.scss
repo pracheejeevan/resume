@@ -1,7 +1,10 @@
-$profile-background: #333;
+$profile-background-color: $primary-color!default;
+$profile-details-name-background-color: lighten($profile-background-color, 10%);
+$profile-details-designation-background-color: lighten($profile-background-color, 20%);
+
 #profile-details-section{
-  background: $profile-background;
-  color: #eee;
+  background: $profile-background-color;
+  @include get-text-color($profile-background-color);
   overflow:auto;
 }
 .profile-details-photo{
@@ -18,14 +21,15 @@ $profile-background: #333;
   }
 }
 .profile-details-name{
-  background-color: lighten($profile-background, 10%);
+  background-color: $profile-details-name-background-color;
+  @include get-text-color($profile-details-name-background-color);
   font-size: 40px;
   margin: 0;
   padding: $spacing-between-blocks;
   text-align: center;
 }
 .profile-details-designation{
-  background-color: lighten($profile-background, 20%);
+  background-color: $profile-details-designation-background-color;
   font-size: 32px;
   margin: 0;
   padding: 10px;
@@ -36,6 +40,6 @@ $profile-background: #333;
   .profile-details-name,
   .profile-details-designation{
     margin-left: 30%;
-    padding: 15px;
+    padding: 20px 15px;
   }
 }
