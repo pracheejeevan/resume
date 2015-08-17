@@ -6,7 +6,7 @@ body{
   background: $body-background-color;
   @include get-text-color($body-background-color);
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 15px;
+  font-size: 17px;
 }
 .clearfix {
   *zoom: 1;
@@ -28,12 +28,14 @@ body{
 }
 .section-header{
   margin: 0 0 10px;
-  font-size: 25px;
+  font-size: 20px;
 }
-
+.heading-icon{
+  margin-right: 10px;
+}
 .section{
   padding: $section-spacing-around;
-  &.even{
+  &.even, &:nth-child(2n+1){
     background: $section-dark-background-color;
     color: $section-dark-text-color;
   }

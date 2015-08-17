@@ -168,7 +168,7 @@ body {
   background: #f7f7f7;
   color: #080808;
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 15px; }
+  font-size: 17px; }
 
 .clearfix {
   *zoom: 1; }
@@ -187,11 +187,14 @@ body {
 
 .section-header {
   margin: 0 0 10px;
-  font-size: 25px; }
+  font-size: 20px; }
+
+.heading-icon {
+  margin-right: 10px; }
 
 .section {
   padding: 10px; }
-  .section.even {
+  .section.even, .section:nth-child(2n+1) {
     background: #444444;
     color: #eeeeee; }
 

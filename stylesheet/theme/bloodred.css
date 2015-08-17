@@ -168,7 +168,7 @@ body {
   background: white;
   color: black;
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 14px; }
+  font-size: 15px; }
 
 .clearfix {
   *zoom: 1; }
@@ -184,6 +184,33 @@ body {
   margin: 0 auto;
   background: #fbddd0;
   display: none; }
+
+.section-header {
+  margin: 0 0 10px;
+  font-size: 25px; }
+
+.section {
+  padding: 10px; }
+  .section.even {
+    background: #ec5716;
+    color: #6fcbf3; }
+
+.skill {
+  margin-bottom: 10px; }
+  .skill .skill-container {
+    background: #fbdfd3;
+    border: #90340C solid 1px;
+    position: relative; }
+  .skill .skill-completed {
+    background: #90340C;
+    padding: 15px 0;
+    float: left;
+    width: 15%; }
+  .skill .skill-text {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    color: #6fcbf3; }
 
 .loader {
   position: absolute;
@@ -211,6 +238,7 @@ body {
 
 .profile-details-photo {
   background-image: url("../../images/prachee-clipped.png");
+  background-size: 110px auto;
   background-repeat: no-repeat;
   height: 140px;
   margin: 0px auto 10px;
@@ -256,18 +284,23 @@ body {
 #proffessional-skills {
   padding: 10px; }
 
-.skill .skill-container {
-  background: #fbdfd3;
-  border: #90340C solid 1px;
-  position: relative; }
-.skill .skill-completed {
-  background: #90340C;
-  padding: 10px 0;
-  float: left;
-  width: 80%; }
-.skill .skill-text {
-  position: absolute;
-  left: 5px;
-  color: #6fcbf3; }
+.proffessional-skills-description .skill:nth-child(2n) {
+  margin-right: 0; }
+@media screen and (min-width: 530px) {
+  .proffessional-skills-description .skill {
+    float: left;
+    width: 49%;
+    margin-right: 10px; } }
 
-/*# sourceMappingURL=
+.techniques-list {
+  padding: 0;
+  padding-left: 20px; }
+  .techniques-list li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 10px; }
+    .techniques-list li .icon-ok {
+      margin-left: -20px;
+      margin-right: 10px; }
+
+/*# sourceMappingURL=style.css.map */

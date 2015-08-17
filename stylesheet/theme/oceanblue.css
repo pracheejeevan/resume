@@ -165,8 +165,8 @@ th {
   padding: 0; }
 
 body {
-  background: #f7f7f7;
-  color: #080808;
+  background: white;
+  color: black;
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 15px; }
 
@@ -182,7 +182,7 @@ body {
   max-width: 960px;
   width: 100%;
   margin: 0 auto;
-  background: #dddddd;
+  background: #d9e6f2;
   display: none; }
 
 .section-header {
@@ -192,17 +192,17 @@ body {
 .section {
   padding: 10px; }
   .section.even {
-    background: #444444;
-    color: #eeeeee; }
+    background: #6699cc;
+    color: #cc9966; }
 
 .skill {
   margin-bottom: 10px; }
   .skill .skill-container {
-    background: #aaaaaa;
-    border: #111 solid 1px;
+    background: white;
+    border: #369 solid 1px;
     position: relative; }
   .skill .skill-completed {
-    background: #111;
+    background: #369;
     padding: 15px 0;
     float: left;
     width: 15%; }
@@ -210,7 +210,7 @@ body {
     position: absolute;
     left: 5px;
     top: 5px;
-    color: #eeeeee; }
+    color: #cc9966; }
 
 .loader {
   position: absolute;
@@ -220,8 +220,8 @@ body {
   right: 0;
   opacity: 0.9;
   filter: alpha(opacity=90%);
-  background: #111;
-  color: #eeeeee;
+  background: #369;
+  color: #cc9966;
   text-align: center; }
   .loader .loader-text {
     font-size: 25px;
@@ -232,8 +232,8 @@ body {
     transform: translateX(-50%); }
 
 #profile-details-section {
-  background: #111;
-  color: #eeeeee;
+  background: #369;
+  color: #cc9966;
   overflow: auto; }
 
 .profile-details-photo {
@@ -251,15 +251,15 @@ body {
       margin-top: 10px; } }
 
 .profile-details-name {
-  background-color: #2b2b2b;
-  color: #d4d4d4;
+  background-color: #4080bf;
+  color: #bf7f40;
   font-size: 40px;
   margin: 0;
   padding: 10px;
   text-align: center; }
 
 .profile-details-designation {
-  background-color: #444444;
+  background-color: #6699cc;
   font-size: 32px;
   margin: 0;
   padding: 10px;
@@ -273,8 +273,8 @@ body {
 #credits-section {
   text-align: center;
   padding: 5px;
-  background: #111;
-  color: #eeeeee; }
+  background: #369;
+  color: #cc9966; }
 
 .icon-heartbeat,
 .icon-smile {
