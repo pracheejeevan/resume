@@ -1,6 +1,5 @@
 $section-dark-background-color: lighten($primary-color, 20%);
 $section-dark-text-color: invert($primary-color);
-$section-spacing-around: $spacing-between-blocks;
 
 body{
   background: $body-background-color;
@@ -40,3 +39,18 @@ body{
     color: $section-dark-text-color;
   }
 }
+
+.techniques-list{
+  padding: 0;
+  padding-left: 20px;
+  li{
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 10px;
+    .icon-ok{
+      margin-left: -20px;
+      margin-right: 10px;
+    }
+  }
+}
+
