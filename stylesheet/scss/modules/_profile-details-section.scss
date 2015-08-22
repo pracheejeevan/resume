@@ -37,10 +37,25 @@ $profile-details-designation-background-color: lighten($profile-background-color
   text-align: center;
 }
 
+.words-for-me{
+  margin: 10px 0;
+}
+
 @media screen and (min-width: 700px){
   .profile-details-name,
   .profile-details-designation{
     margin-left: 30%;
     padding: 15px;
+  }
+  .words-for-me,
+  .personal-analytics{
+    width: 50%;
+    max-width: 50%;
+    float: left;
+    box-sizing: border-box;
+  }
+  .words-for-me{
+    border-left: darken(invert($profile-details-name-background-color), 30%) dashed 1px;
+    padding: 5px 15px;
   }
 }

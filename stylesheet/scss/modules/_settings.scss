@@ -10,7 +10,8 @@ $settings-background: (
   "2": lighten($profile-photo-background, 10%),
   "3": lighten($profile-photo-background, 20%),
   "4": lighten($profile-photo-background, 30%),
-  "5": lighten($profile-photo-background, 40%)
+  "5": lighten($profile-photo-background, 40%),
+  "6": lighten($profile-photo-background, 50%)
 );
 
 .settings{
@@ -51,4 +52,8 @@ $settings-background: (
 
 .worked-with-techniques{
   background: map-get($settings-background, "5");
+}
+
+.personal-profile{
+  background: map-get($settings-background, "6");
 }

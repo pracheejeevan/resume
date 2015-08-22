@@ -32,7 +32,17 @@ $("#go-to-top").on("click", function(){
 
 var startAllFunctions = function(){
   setUpExcellence();
+  $("#go-to-top").hide();
 };
+
+$(window).on("scroll", function(){
+  if($("body").scrollTop() > 150){
+    $("#go-to-top").show();
+  }else{
+    $("#go-to-top").hide();
+  }
+
+});
 
 $(window).load(function(){
   $(".loader").fadeOut("slow", function(){
