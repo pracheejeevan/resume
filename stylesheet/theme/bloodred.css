@@ -164,11 +164,47 @@ td,
 th {
   padding: 0; }
 
+.skill {
+  margin-bottom: 10px; }
+  .skill .skill-container {
+    background: #f3b8b8;
+    border: #671212 solid 1px;
+    position: relative; }
+  .skill .skill-completed {
+    background: #671212;
+    padding: 15px 0;
+    float: left;
+    width: 15%; }
+  .skill .skill-text {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    color: #98eded; }
+
+.loader {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.9;
+  filter: alpha(opacity=90%);
+  background: #671212;
+  color: #98eded;
+  text-align: center; }
+  .loader .loader-text {
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%); }
+
 body {
   background: white;
   color: black;
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 15px; }
+  font-size: 17px; }
 
 .clearfix {
   *zoom: 1; }
@@ -182,58 +218,36 @@ body {
   max-width: 960px;
   width: 100%;
   margin: 0 auto;
-  background: #fbddd0;
+  background: #f7d4d4;
   display: none; }
 
 .section-header {
   margin: 0 0 10px;
-  font-size: 25px; }
+  font-size: 20px; }
+
+.heading-icon {
+  margin-right: 10px; }
 
 .section {
   padding: 10px; }
-  .section.even {
-    background: #ec5716;
-    color: #6fcbf3; }
+  .section.even, .section:nth-child(2n+1) {
+    background: #be2121;
+    color: #98eded; }
 
-.skill {
-  margin-bottom: 10px; }
-  .skill .skill-container {
-    background: #fbdfd3;
-    border: #90340C solid 1px;
-    position: relative; }
-  .skill .skill-completed {
-    background: #90340C;
-    padding: 15px 0;
-    float: left;
-    width: 15%; }
-  .skill .skill-text {
-    position: absolute;
-    left: 5px;
-    top: 5px;
-    color: #6fcbf3; }
-
-.loader {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  opacity: 0.9;
-  filter: alpha(opacity=90%);
-  background: #90340C;
-  color: #6fcbf3;
-  text-align: center; }
-  .loader .loader-text {
-    font-size: 25px;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 50%;
-    transform: translateX(-50%); }
+.techniques-list {
+  padding: 0;
+  padding-left: 20px; }
+  .techniques-list li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 10px; }
+    .techniques-list li .icon-ok {
+      margin-left: -20px;
+      margin-right: 10px; }
 
 #profile-details-section {
-  background: #90340C;
-  color: #6fcbf3;
+  background: #671212;
+  color: #98eded;
   overflow: auto; }
 
 .profile-details-photo {
@@ -251,15 +265,15 @@ body {
       margin-top: 10px; } }
 
 .profile-details-name {
-  background-color: #bf4510;
-  color: #40baef;
+  background-color: #921a1a;
+  color: #6de5e5;
   font-size: 40px;
   margin: 0;
   padding: 10px;
   text-align: center; }
 
 .profile-details-designation {
-  background-color: #ec5716;
+  background-color: #be2121;
   font-size: 32px;
   margin: 0;
   padding: 10px;
@@ -273,8 +287,8 @@ body {
 #credits-section {
   text-align: center;
   padding: 5px;
-  background: #90340C;
-  color: #6fcbf3; }
+  background: #671212;
+  color: #98eded; }
 
 .icon-heartbeat,
 .icon-smile {
@@ -291,16 +305,5 @@ body {
     float: left;
     width: 49%;
     margin-right: 10px; } }
-
-.techniques-list {
-  padding: 0;
-  padding-left: 20px; }
-  .techniques-list li {
-    list-style-type: none;
-    padding: 0;
-    margin: 0 0 10px; }
-    .techniques-list li .icon-ok {
-      margin-left: -20px;
-      margin-right: 10px; }
 
 /*# sourceMappingURL=style.css.map */

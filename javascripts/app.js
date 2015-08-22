@@ -8,6 +8,28 @@ var setUpExcellence = function(){
   });
 };
 
+$(document).on("settingsIconClicked", function(e, data){
+  var sectionToScroll = data.href;
+  var yOffsetOfSection = $("#"+sectionToScroll).offset().top;
+  $("body").animate({
+    scrollTop: yOffsetOfSection
+  });
+});
+
+$("#settings a").on("click", function(){
+  var data = {
+    "href": $(this).data("href")
+  };
+  $(document).trigger("settingsIconClicked", data);
+});
+
+$("#go-to-top").on("click", function(){
+  var data = {
+    "href": $(this).data("href")
+  };
+  $(document).trigger("settingsIconClicked", data);
+});
+
 var startAllFunctions = function(){
   setUpExcellence();
 };

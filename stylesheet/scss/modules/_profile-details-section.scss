@@ -8,7 +8,7 @@ $profile-details-designation-background-color: lighten($profile-background-color
   overflow:auto;
 }
 .profile-details-photo{
-  background-image: url('../../images/prachee-clipped.png');
+  @include get-profile-photo();
   background-size: 110px auto;
   background-repeat: no-repeat;
   height: 140px;

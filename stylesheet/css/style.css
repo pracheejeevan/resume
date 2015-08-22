@@ -230,7 +230,7 @@ body {
 
 .section {
   padding: 10px; }
-  .section.even, .section:nth-child(2n+1) {
+  .section.even, .section:nth-child(2n) {
     background: #444444;
     color: #eeeeee; }
 
@@ -244,6 +244,45 @@ body {
     .techniques-list li .icon-ok {
       margin-left: -20px;
       margin-right: 10px; }
+
+.go-to-top {
+  position: fixed;
+  font-size: 35px;
+  color: #111;
+  right: 0;
+  bottom: 0;
+  background: #eee; }
+
+.settings {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+  .settings a {
+    color: #fff;
+    min-height: 60px;
+    text-decoration: none;
+    width: 20%;
+    text-align: center;
+    line-height: 60px; }
+
+.profile-photo {
+  background-image: url("../../images/prachee-clipped.png");
+  background-color: #111;
+  background-position: center;
+  background-size: auto 40px;
+  background-repeat: no-repeat; }
+
+.what-drives-me {
+  background: #2b2b2b; }
+
+.think-design {
+  background: #444444; }
+
+.excellence {
+  background: #5e5e5e; }
+
+.worked-with-techniques {
+  background: #777777; }
 
 #profile-details-section {
   background: #111;

@@ -19,9 +19,27 @@
       "src": "fontawesome"
     },
     {
+      "uid": "57a0ac800df728aad61a7cf9e12f5fef",
+      "css": "flag",
+      "code": 59403,
+      "src": "fontawesome"
+    },
+    {
       "uid": "7034e4d22866af82bef811f52fb1ba46",
       "css": "code",
       "code": 59398,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "0d08dbb1dd648a43bdea81b7e6c9e036",
+      "css": "location",
+      "code": 59402,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "2b8e9b027181aafd210bf29c5486d4a0",
+      "css": "up-circled",
+      "code": 59404,
       "src": "fontawesome"
     },
     {
@@ -46,6 +64,12 @@
       "uid": "d862a10e1448589215be19702f98f2c1",
       "css": "smile",
       "code": 59394,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "bc61ebcf2f5d8d08b1e9e62167df7617",
+      "css": "birthday",
+      "code": 59401,
       "src": "fontawesome"
     },
     {

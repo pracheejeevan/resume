@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="en">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -12,9 +12,11 @@
   <link rel="apple-touch-icon" href="favicon.png">
 
   <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="fonts/css/fontello.css">
-  <link rel="stylesheet" href="fonts/css/animation.css">
-  <link rel="stylesheet" href="stylesheet/css/style.css">
+  <link rel="stylesheet" href="fonts/css/fontello.css" media="screen">
+  <link rel="stylesheet" href="fonts/css/animation.css" media="screen">
+  <link rel="stylesheet" href="stylesheet/css/style.css" media="screen">
+  <link rel="stylesheet" href="fonts/css/fontello.css" media="print">
+  <link rel="stylesheet" href="stylesheet/css/style.css" media="print">
 </head>
 <body>
 <!--[if lt IE 8]>
@@ -28,16 +30,23 @@
   </div>
 </div>
 
-<div class="container">
+<div class="container" id="resume-starts">
+  <div class="settings" id="settings">
+    <a href="javascript:void(0);" data-href="profile-details-section" class="profile-photo"></a>
+    <a href="javascript:void(0);" data-href="what-drives-me" class="what-drives-me"><i class="icon-cab"></i></a>
+    <a href="javascript:void(0);" data-href="think-design" class="think-design"><span class="icon-brush"></span></a>
+    <a href="javascript:void(0);" data-href="proffessional-skills" class="excellence"><span class="icon-code"></span></a>
+    <a href="javascript:void(0);" data-href="worked-with-techniques" class="worked-with-techniques"><span class="icon-briefcase"></span></a>
+  </div>
   <header id="profile-details-section">
     <div class="profile-details-photo"></div>
     <h1 class="profile-details-name">Prachee Pradhan</h1>
     <h2 class="profile-details-designation">UX, UI Developer</h2>
   </header>
   <section id="my-phillosophy" class="clearfix section">
-    <h3 class="section-header"><span class="icon-cab heading-icon"></span> What drives me...</h3>
-    <p>Awesome Food... Challenging Work... Company that helps me grow.</p>
-    <h3 class="section-header"><span class="icon-brush heading-icon"></span> What do I think of design</h3>
+    <h3 class="section-header" id="what-drives-me"><span class="icon-cab heading-icon"></span> What drives me...</h3>
+    <p>Awesome Food... Challenging Work... Company that helps me grow and travel all around the world... </p>
+    <h3 class="section-header" id="think-design"><span class="icon-brush heading-icon"></span> What do I think of design</h3>
     <p>Design is a taste. Design should be user-friendly and convinient to get the things for which the user has searched.</p>
   </section>
 
@@ -101,6 +110,9 @@
     Made with <i class="icon-heartbeat"></i>. Credits: Jagat Jeevan Sahoo <i class="icon-smile"></i>
   </section>
 </div>
+
+<a href="javascript:void(0);" data-href="resume-starts" class="go-to-top" id="go-to-top"><i class="icon-up-circled"></i></a>
+
 <script src="javascripts/jquery.min.js"></script>
 <script src="javascripts/app.js"></script>
 </body>

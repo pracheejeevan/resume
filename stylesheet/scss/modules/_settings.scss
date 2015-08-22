@@ -1,0 +1,54 @@
+$number-of-sections: 5;
+$width-of-each-setting: percentage(1/$number-of-sections);
+
+$background-height: 40px;
+
+$profile-photo-background: $primary-color;
+
+$settings-background: (
+  "1": $profile-photo-background,
+  "2": lighten($profile-photo-background, 10%),
+  "3": lighten($profile-photo-background, 20%),
+  "4": lighten($profile-photo-background, 30%),
+  "5": lighten($profile-photo-background, 40%)
+);
+
+.settings{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  a{
+    color: #fff;
+    min-height: $background-height+20px;
+    text-decoration: none;
+    width: $width-of-each-setting;
+    text-align: center;
+    line-height: $background-height+20px;
+  }
+}
+
+.profile-photo{
+  @include get-profile-photo();
+  background: {
+    color: map-get($settings-background, "1");
+    position: center;
+    size: auto $background-height;
+    repeat: no-repeat;
+  }
+}
+
+.what-drives-me{
+  background: map-get($settings-background, "2");
+}
+
+.think-design{
+  background: map-get($settings-background, "3");
+}
+
+.excellence{
+  background: map-get($settings-background, "4");
+}
+
+.worked-with-techniques{
+  background: map-get($settings-background, "5");
+}

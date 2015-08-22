@@ -34,7 +34,7 @@ body{
 }
 .section{
   padding: $section-spacing-around;
-  &.even, &:nth-child(2n+1){
+  &.even, &:nth-child(2n){
     background: $section-dark-background-color;
     color: $section-dark-text-color;
   }
@@ -54,3 +54,11 @@ body{
   }
 }
 
+.go-to-top{
+  position: fixed;
+  font-size: 35px;
+  color: #111;
+  right: 0;
+  bottom: 0;
+  background: #eee;
+}
