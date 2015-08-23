@@ -37,6 +37,12 @@
       "src": "fontawesome"
     },
     {
+      "uid": "9f7e588c66cfd6891f6f507cf6f6596b",
+      "css": "phone",
+      "code": 59405,
+      "src": "fontawesome"
+    },
+    {
       "uid": "2b8e9b027181aafd210bf29c5486d4a0",
       "css": "up-circled",
       "code": 59404,
@@ -73,10 +79,28 @@
       "src": "fontawesome"
     },
     {
+      "uid": "8e04c98c8f5ca0a035776e3001ad2638",
+      "css": "facebook",
+      "code": 59406,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "5e0a374728ffa8d0ae1f331a8f648231",
+      "css": "github",
+      "code": 59408,
+      "src": "fontawesome"
+    },
+    {
       "uid": "39c4d0e225a1263a398a47523cb5b9bd",
       "css": "brush",
       "code": 59397,
       "src": "entypo"
+    },
+    {
+      "uid": "b49fa3e57e92b38143e0fdcc5d9a904b",
+      "css": "gmail",
+      "code": 59407,
+      "src": "zocial"
     },
     {
       "uid": "7b16b22168e762c88333f465da862098",
