@@ -1,5 +1,5 @@
-$skill-container-background-color: lighten($primary-color, 60%);
-$skill-container-border-color: $primary-color;
+$skill-container-background-color: lighten($primary-color, 60%)!default;
+$skill-container-border-color: $primary-color!default;
 
 .skill{
   margin-bottom: $section-spacing-around;

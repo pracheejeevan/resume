@@ -2,10 +2,10 @@
 // Vanilla : #111;
 // Bloodred : #671212;
 // Oceanblue : #125A75;
-$primary-color: #111;
+$primary-color: #111!default;
 
-$body-background-color: lighten($primary-color, 90%);
+$body-background-color: lighten($primary-color, 90%)!default;
 
 // Layout Spacing
-$spacing-between-blocks: 10px;
+$spacing-between-blocks: 10px!default;
 $section-spacing-around: $spacing-between-blocks;

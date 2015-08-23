@@ -1,9 +1,9 @@
 $section-dark-background-color: lighten($primary-color, 20%);
 $section-dark-text-color: invert($primary-color);
+$body-text-color: invert($body-background-color)!default;
 
 body{
   background: $body-background-color;
-  @include get-text-color($body-background-color);
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 17px;
 }

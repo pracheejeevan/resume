@@ -12,7 +12,7 @@ $settings-background: (
   "4": lighten($profile-photo-background, 30%),
   "5": lighten($profile-photo-background, 40%),
   "6": lighten($profile-photo-background, 50%)
-);
+)!default;
 
 .settings{
   display: flex;
