@@ -303,6 +303,15 @@ body {
     .social-links i.icon-phone {
       border: 0;
       margin: 5px 0; }
+  .social-links .gmail:hover i {
+    color: #9D2E20;
+    border-color: #9D2E20; }
+  .social-links .github:hover i {
+    color: #666;
+    border-color: #666; }
+  .social-links .facebook:hover i {
+    color: #4078c0;
+    border-color: #4078c0; }
 
 #profile-details-section {
   background: #111;

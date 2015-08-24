@@ -1,3 +1,8 @@
+$gmail-icon-color: #9D2E20;
+$github-icon-color: #666;
+$facebook-icon-color: #4078c0;
+
+
 .social-links{
   text-align: center;
   margin-bottom: 10px;
@@ -13,4 +18,23 @@
       margin: 5px 0;
     }
   }
+  .gmail{
+    &:hover i{
+      color: $gmail-icon-color;
+      border-color: $gmail-icon-color;
+    }
+  }
+  .github{
+    &:hover i{
+      color: $github-icon-color;
+      border-color: $github-icon-color;
+    }
+  }
+  .facebook{
+    &:hover i{
+      color: $facebook-icon-color;
+      border-color: $facebook-icon-color;
+    }
+  }
 }
+
