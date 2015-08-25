@@ -2,33 +2,33 @@
 **************Theme - yellow-brown config**************
 ******************************************************/
 
-      // $primary-color: #F8AF1E; //#00A2FF;
-      // $secondary-color: #FF0600;
-      // $tertiary-color: #097380;
-      // $quaternary-color: #111;
+      $primary-color: #F8AF1E; //#00A2FF;
+      $secondary-color: #FF0600;
+      $tertiary-color: #097380;
+      $quaternary-color: #111;
 
-      // // Loading
-      // $loader-background-color: $quaternary-color;
+      // Loading
+      $loader-background-color: $quaternary-color;
 
-      // // Top Header links background-color
-      // $settings-background: (
-      //   "1": $tertiary-color,
-      //   "2": lighten($tertiary-color, 20%),
-      //   "3": $secondary-color,
-      //   "4": lighten($secondary-color, 20%),
-      //   "5": $primary-color,
-      //   "6": lighten($primary-color, 20%),
-      // );
+      // Top Header links background-color
+      $settings-background: (
+        "1": $tertiary-color,
+        "2": lighten($tertiary-color, 20%),
+        "3": $secondary-color,
+        "4": lighten($secondary-color, 20%),
+        "5": $primary-color,
+        "6": lighten($primary-color, 20%),
+      );
 
-      // $profile-background-color: darken($primary-color, 40%);
+      $profile-background-color: darken($primary-color, 40%);
 
-      // $section-dark-background-color: darken($primary-color, 40%);
+      $section-dark-background-color: darken($primary-color, 40%);
 
-      // $credits-section-background: darken($primary-color, 40%);
+      $credits-section-background: darken($primary-color, 40%);
 
-      // $skill-container-background-color: $primary-color;
+      $skill-container-background-color: $primary-color;
 
-      // $skill-completed-background: $tertiary-color;
+      $skill-completed-background: $tertiary-color;
 
-      // $go-to-top-background: #483002;
-      // $go-to-top-text-color: $primary-color;
+      $go-to-top-background: #483002;
+      $go-to-top-text-color: $primary-color;
