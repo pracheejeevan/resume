@@ -1,8 +1,11 @@
-@mixin get-text-color($color){
-  color: invert($color);
-  // @if(lightness($color) > 50%){
-  //   color: #eee;
-  // }else{
-  //   color: #333;
-  // }
+@function brightness($color) {
+  $sum: red($color) + green($color) + blue($color);
+  @return percentage($sum / (255*3));
+}
+
+@mixin get-text-color($color) {
+  color: #333;
+  @if brightness($color) < 50% {
+    color: white;
+  }
 }

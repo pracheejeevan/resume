@@ -1,15 +1,16 @@
-$skill-container-background-color: lighten($primary-color, 60%)!default;
-$skill-container-border-color: $primary-color!default;
-
+$skill-container-background-color: $primary-color!default;
+$skill-container-border-color: darken($skill-container-background-color, 20%)!default;
+$skill-completed-background: $skill-container-border-color!default;
+$skill-vertical-spacing: 15px!default;
 .skill{
-  margin-bottom: $section-spacing-around;
+  margin-bottom: $skill-vertical-spacing;
   .skill-container{
     background: $skill-container-background-color;
-    border: $skill-container-border-color solid 1px;
+    border: $skill-container-border-color solid 0;
     position: relative;
   }
   .skill-completed{
-    background: $skill-container-border-color;
+    background: $skill-completed-background;
     padding: 15px 0;
     float: left;
     width: 15%;
@@ -18,6 +19,6 @@ $skill-container-border-color: $primary-color!default;
     position: absolute;
     left: 5px;
     top: 5px;
-    color: invert($skill-container-border-color);
+    @include get-text-color($skill-completed-background);
   }
 }

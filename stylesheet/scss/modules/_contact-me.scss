@@ -18,6 +18,9 @@ $facebook-icon-color: #4078c0;
       margin: 5px 0;
     }
   }
+  span{
+    display: none;
+  }
   .gmail{
     &:hover i{
       color: $gmail-icon-color;

@@ -165,13 +165,13 @@ th {
   padding: 0; }
 
 .skill {
-  margin-bottom: 10px; }
+  margin-bottom: 15px; }
   .skill .skill-container {
-    background: #aaaaaa;
-    border: #111 solid 1px;
+    background: #f8af1e;
+    border: #ab7305 solid 0;
     position: relative; }
   .skill .skill-completed {
-    background: #111;
+    background: #097380;
     padding: 15px 0;
     float: left;
     width: 15%; }
@@ -179,7 +179,8 @@ th {
     position: absolute;
     left: 5px;
     top: 5px;
-    color: #eeeeee; }
+    color: #333;
+    color: white; }
 
 .loader {
   position: absolute;
@@ -189,8 +190,8 @@ th {
   right: 0;
   opacity: 0.9;
   filter: alpha(opacity=90%);
-  background: #111;
-  color: #eeeeee;
+  background: #f8af1e;
+  color: #333;
   text-align: center; }
   .loader .loader-text {
     position: absolute;
@@ -204,7 +205,7 @@ th {
     font-size: 25px; }
 
 body {
-  background: #f7f7f7;
+  background: white;
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 17px; }
 
@@ -220,7 +221,7 @@ body {
   max-width: 960px;
   width: 100%;
   margin: 0 auto;
-  background: #dddddd;
+  background: #fdedce;
   display: none; }
 
 .section-header {
@@ -231,10 +232,10 @@ body {
   margin-right: 10px; }
 
 .section {
-  padding: 10px; }
+  padding: 30px; }
   .section.even, .section:nth-child(2n) {
-    background: #444444;
-    color: #eeeeee; }
+    background: #fef5e4;
+    color: #333; }
 
 .techniques-list {
   padding: 0;
@@ -261,7 +262,7 @@ body {
   flex-direction: row;
   justify-content: center; }
   .settings a {
-    color: #fff;
+    color: #333;
     min-height: 60px;
     text-decoration: none;
     width: 16.66667%;
@@ -270,39 +271,41 @@ body {
 
 .profile-photo {
   background-image: url("../../images/prachee-clipped.png");
-  background-color: #111;
+  background-color: #f8af1e;
   background-position: center;
   background-size: auto 40px;
   background-repeat: no-repeat; }
 
 .what-drives-me {
-  background: #2b2b2b; }
+  background: #fac14f; }
 
 .think-design {
-  background: #444444; }
+  background: #fbd281; }
 
 .excellence {
-  background: #5e5e5e; }
+  background: #fde4b2; }
 
 .worked-with-techniques {
-  background: #777777; }
+  background: #fef5e4; }
 
 .personal-profile {
-  background: #919191; }
+  background: white; }
 
 .social-links {
   text-align: center;
   margin-bottom: 10px; }
   .social-links i {
-    border: 1px solid #111;
+    border: 1px solid #f8af1e;
     border-radius: 50%;
     font-size: 20px;
     margin: 5px 10px 15px;
-    color: #111;
+    color: #f8af1e;
     padding: 5px; }
     .social-links i.icon-phone {
       border: 0;
       margin: 5px 0; }
+  .social-links span {
+    display: none; }
   .social-links .gmail:hover i {
     color: #9D2E20;
     border-color: #9D2E20; }
@@ -314,8 +317,8 @@ body {
     border-color: #4078c0; }
 
 #profile-details-section {
-  background: #111;
-  color: #eeeeee;
+  background: #f8af1e;
+  color: #333;
   overflow: auto; }
 
 .profile-details-photo {
@@ -323,7 +326,7 @@ body {
   background-size: 110px auto;
   background-repeat: no-repeat;
   height: 140px;
-  margin: 0px auto 10px;
+  margin: 0px auto 30px;
   width: 130px; }
   @media screen and (min-width: 700px) {
     .profile-details-photo {
@@ -333,15 +336,15 @@ body {
       margin-top: 10px; } }
 
 .profile-details-name {
-  background-color: #2b2b2b;
-  color: #d4d4d4;
+  background-color: #fac14f;
+  color: #333;
   font-size: 40px;
   margin: 0;
-  padding: 10px;
+  padding: 30px;
   text-align: center; }
 
 .profile-details-designation {
-  background-color: #444444;
+  background-color: #fbd281;
   font-size: 32px;
   margin: 0;
   padding: 10px;
@@ -354,7 +357,7 @@ body {
   .profile-details-name,
   .profile-details-designation {
     margin-left: 30%;
-    padding: 15px; }
+    padding: 20px 15px; }
 
   .words-for-me,
   .personal-analytics {
@@ -364,21 +367,18 @@ body {
     box-sizing: border-box; }
 
   .words-for-me {
-    border-left: #888888 dashed 1px;
+    border-left: #010a1b dashed 1px;
     padding: 5px 15px; } }
 #credits-section {
   text-align: center;
   padding: 5px;
-  background: #111;
-  color: #eeeeee; }
+  background: #f8af1e;
+  color: #0750e1; }
 
 .icon-heartbeat,
 .icon-smile {
   color: #CE1D0C;
   font-size: 1.2em; }
-
-#proffessional-skills {
-  padding: 10px; }
 
 .proffessional-skills-description .skill:nth-child(2n) {
   margin-right: 0; }
@@ -386,6 +386,6 @@ body {
   .proffessional-skills-description .skill {
     float: left;
     width: 49%;
-    margin-right: 10px; } }
+    margin-right: 15px; } }
 
 /*# sourceMappingURL=style.css.map */

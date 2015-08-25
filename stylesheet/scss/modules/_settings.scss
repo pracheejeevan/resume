@@ -19,7 +19,7 @@ $settings-background: (
   flex-direction: row;
   justify-content: center;
   a{
-    color: #fff;
+    @include get-text-color(map-get($settings-background, "1"));
     min-height: $background-height+20px;
     text-decoration: none;
     width: $width-of-each-setting;
