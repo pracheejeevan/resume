@@ -170,14 +170,14 @@ th {
 .skill {
   margin-bottom: 15px; }
   .skill .skill-container {
-    background: #444444;
-    border: #111111 solid 0;
+    background: #F8AF1E;
+    border: #ab7305 solid 0;
     position: relative;
     -webkit-box-shadow: inset 0px 0px 36px 8px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: inset 0px 0px 36px 8px rgba(0, 0, 0, 0.75);
     box-shadow: inset 0px 0px 36px 8px rgba(0, 0, 0, 0.75); }
   .skill .skill-completed {
-    background: #111111;
+    background: #097380;
     padding: 15px 0;
     float: left;
     width: 15%; }
@@ -212,7 +212,7 @@ th {
     font-size: 25px; }
 
 body {
-  background: #f7f7f7;
+  background: white;
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 17px; }
 
@@ -228,7 +228,7 @@ body {
   max-width: 960px;
   width: 100%;
   margin: 0 auto;
-  background: #dddddd;
+  background: #fdedce;
   display: none; }
 
 .section-header {
@@ -241,7 +241,7 @@ body {
 .section {
   padding: 30px; }
   .section.even, .section:nth-child(2n) {
-    background: #777777;
+    background: #483002;
     color: #333;
     color: white; }
 
@@ -263,8 +263,8 @@ body {
   font-size: 35px;
   right: 0;
   bottom: 0;
-  background: #eee;
-  color: #111;
+  background: #483002;
+  color: #F8AF1E;
   display: none; }
 
 .settings {
@@ -282,7 +282,7 @@ body {
     line-height: 50px; }
 
 .my-profile-photo {
-  background-color: #111; }
+  background-color: #097380; }
   .my-profile-photo span {
     background-image: url("../../images/prachee-clipped.png");
     background-position: center;
@@ -294,29 +294,29 @@ body {
     margin-top: 10px; }
 
 .what-drives-me {
-  background: #2b2b2b; }
+  background: #10c9df; }
 
 .think-design {
-  background: #444444; }
+  background: #FF0600; }
 
 .excellence {
-  background: #5e5e5e; }
+  background: #ff6a66; }
 
 .worked-with-techniques {
-  background: #777777; }
+  background: #F8AF1E; }
 
 .personal-profile {
-  background: #919191; }
+  background: #fbd281; }
 
 .social-links {
   text-align: center;
   margin-bottom: 10px; }
   .social-links i {
-    border: 1px solid #111;
+    border: 1px solid #F8AF1E;
     border-radius: 50%;
     font-size: 20px;
     margin: 5px 10px 15px;
-    color: #111;
+    color: #F8AF1E;
     padding: 5px; }
     .social-links i.icon-phone {
       border: 0;
@@ -334,7 +334,7 @@ body {
     border-color: #4078c0; }
 
 #profile-details-section {
-  background: #111;
+  background: #483002;
   color: #333;
   color: white;
   overflow: auto; }
@@ -354,7 +354,7 @@ body {
       margin-top: 10px; } }
 
 .profile-details-name {
-  background-color: #2b2b2b;
+  background-color: #795204;
   color: #333;
   color: white;
   font-size: 40px;
@@ -363,7 +363,7 @@ body {
   text-align: center; }
 
 .profile-details-designation {
-  background-color: #444444;
+  background-color: #ab7305;
   font-size: 32px;
   margin: 0;
   padding: 10px;
@@ -386,12 +386,12 @@ body {
     box-sizing: border-box; }
 
   .words-for-me {
-    border-left: #888888 dashed 1px;
+    border-left: #0750e1 dashed 1px;
     padding: 5px 15px; } }
 #credits-section {
   text-align: center;
   padding: 5px;
-  background: #111;
+  background: #483002;
   color: #333;
   color: white; }
 
