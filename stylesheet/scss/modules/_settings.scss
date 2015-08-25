@@ -3,7 +3,7 @@ $width-of-each-setting: percentage(1/$number-of-sections);
 
 $background-height: 40px;
 
-$profile-photo-background: $primary-color;
+$profile-photo-background: $primary-color!default;
 
 $settings-background: (
   "1": $profile-photo-background,
@@ -19,22 +19,29 @@ $settings-background: (
   flex-direction: row;
   justify-content: center;
   a{
+    background-image: url("../../images/pattern.png");
     @include get-text-color(map-get($settings-background, "1"));
-    min-height: $background-height+20px;
+    min-height: $background-height+10px;
     text-decoration: none;
     width: $width-of-each-setting;
     text-align: center;
-    line-height: $background-height+20px;
+    line-height: $background-height+10px;
   }
 }
 
-.profile-photo{
-  @include get-profile-photo();
-  background: {
-    color: map-get($settings-background, "1");
-    position: center;
-    size: auto $background-height;
-    repeat: no-repeat;
+.my-profile-photo{
+  background-color: map-get($settings-background, "1");
+  span{
+    @include get-profile-photo();
+    background: {
+      position: center;
+      size: auto $background-height;
+      repeat: no-repeat;
+    }
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    margin-top: 10px;
   }
 }
 

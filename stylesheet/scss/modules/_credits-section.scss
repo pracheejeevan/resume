@@ -1,8 +1,10 @@
+$credits-section-background: $primary-color!default;
+
 #credits-section{
   text-align: center;
   padding: 5px;
-  background: $primary-color;
-  color: invert($primary-color);
+  background: $credits-section-background;
+  @include get-text-color($credits-section-background);
 }
 .icon-heartbeat,
 .icon-smile{
