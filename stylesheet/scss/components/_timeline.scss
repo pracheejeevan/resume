@@ -1,0 +1,57 @@
+$year-border-color: $primary-color!default;
+$circle-width-height-size: 50px!default;
+$circle-arrow-font-size: 43px!default;
+$skill-description-background-color: $primary-color!default;
+$highlight-color-timeline: invert($skill-description-background-color)!default;
+
+.event-in-the-timeline{
+  margin: $spacing-between-blocks/4;
+  display: table;
+  width: 100%;
+  .year,
+  .year-description{
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .year{
+    vertical-align:middle;
+    width: $circle-width-height-size;
+    span{
+      width: $circle-width-height-size;
+      height: $circle-width-height-size;
+      border-radius: 50%;
+      border: 10px solid $year-border-color;
+      text-align: center;
+      line-height: $circle-width-height-size;
+      display: inline-block;
+      margin: 10px;
+      position: relative;
+      .event-arrow{
+        position: absolute;
+        font-size: $circle-arrow-font-size;
+        color: $year-border-color;
+        &.right{
+          right: -$circle-arrow-font-size;
+        }
+        &.left{
+          left: -$circle-arrow-font-size;
+        }
+      }
+    }
+  }
+  .year-description{
+    p{
+      margin: 10px;
+      background: $skill-description-background-color;
+      @include get-text-color($skill-description-background-color);
+      padding: 10px;
+      border-radius:10px;
+      position: relative;
+      b{
+        margin: 0 10px;
+        color: $highlight-color-timeline;
+        font-size: 1.1em;
+      }
+    }
+  }
+}

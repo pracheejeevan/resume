@@ -16,3 +16,6 @@
 .icon-facebook:before { content: '\e80e'; } /* '' */
 .icon-gmail:before { content: '\e80f'; } /* '' */
 .icon-github:before { content: '\e810'; } /* '' */
+.icon-right-dir:before { content: '\e811'; } /* '' */
+.icon-stopwatch:before { content: '\e812'; } /* '' */
+.icon-left-dir:before { content: '\e813'; } /* '' */

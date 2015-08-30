@@ -1,6 +1,7 @@
 $profile-background-color: $primary-color!default;
 $profile-details-name-background-color: lighten($profile-background-color, 10%);
 $profile-details-designation-background-color: lighten($profile-background-color, 20%);
+$profile-words-for-me-border-color: $primary-color!default;
 
 #profile-details-section{
   background: $profile-background-color;
@@ -55,7 +56,7 @@ $profile-details-designation-background-color: lighten($profile-background-color
     box-sizing: border-box;
   }
   .words-for-me{
-    border-left: darken(invert($profile-details-name-background-color), 30%) dashed 1px;
+    border-left: $profile-words-for-me-border-color dashed 1px;
     padding: 5px 15px;
   }
 }

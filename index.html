@@ -14,6 +14,7 @@
   <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="fonts/css/fontello.css" media="all">
   <link rel="stylesheet" href="fonts/css/animation.css" media="all">
+
   <link rel="stylesheet" href="stylesheet/css/style.css" media="all">
   <link rel="stylesheet" href="stylesheet/css/print.css" media="print">
 </head>
@@ -37,6 +38,8 @@
     <a href="javascript:void(0);" data-href="think-design" class="think-design"><span class="icon-brush"></span></a>
     <a href="javascript:void(0);" data-href="proffessional-skills" class="excellence"><span class="icon-code"></span></a>
     <a href="javascript:void(0);" data-href="worked-with-techniques" class="worked-with-techniques"><span class="icon-briefcase"></span></a>
+    <a href="javascript:void(0);" data-href="career-graph" class="timeline"><span class="icon-stopwatch"></span></a>
+
     <a href="javascript:void(0);" data-href="personal-profile" class="personal-profile"><span class="icon-user"></span></a>
   </div>
   <header id="profile-details-section">
@@ -67,7 +70,7 @@
   <section id="proffessional-skills" class="clearfix section">
     <h3 class="section-header"><span class="icon-code heading-icon"></span> Excellence in</h3>
     <div class="proffessional-skills-description">
-    <div class="skill html" data-skill-completed="92">
+      <div class="skill html" data-skill-completed="92" data-skillset="HTML4 &amp; 5">
         <div class="skill-container clearfix">
           <div class="skill-text">HTML 4 &amp; 5</div>
           <div class="skill-completed"></div>
@@ -110,27 +113,80 @@
     </ul>
   </section>
 
+  <section id="career-graph" class="clearfix section">
+    <h3 class="section-header"><span class="icon-stopwatch heading-icon"></span> My Timeline</h3>
+    <div class="timeline">
+      <div class="event-in-the-timeline">
+        <div class="year">
+          <span>
+            2015 <i class="icon-right-dir event-arrow right"></i>
+          </span>
+        </div>
+        <div class="year-description">
+          <p>Helping friends in building their websites, a Freelancer, a Photographer. In my leisure browsing internet for the recent changes in UI development world. <b>(From: 2015 - Present)</b></p>
+        </div>
+      </div>
+    </div>
+    <div class="timeline">
+      <div class="event-in-the-timeline">
+        <div class="year-description">
+        <p>Completed my Masters in Technology in Electronics and Telecommunication. <b>(From: 2012 - 2014)</b></p>
+        </div>
+        <div class="year">
+          <span>
+            2014 <i class="icon-left-dir event-arrow left"></i>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="timeline">
+      <div class="event-in-the-timeline">
+        <div class="year">
+          <span>
+            2012 <i class="icon-right-dir event-arrow right"></i>
+          </span>
+        </div>
+        <div class="year-description">
+          <p>Lectureship in KSET as a lecturer. <b>(From: 2010 - 2012)</b></p>
+        </div>
+      </div>
+    </div>
+    <div class="timeline">
+      <div class="event-in-the-timeline">
+        <div class="year-description">
+        <p>Studied Bachelor of Technologies in Electronics and Telecommunication. <b>(From: 2008 - 2012)</b></p>
+        </div>
+        <div class="year">
+          <span>
+            2012 <i class="icon-left-dir event-arrow left"></i>
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="section clearfix" id="personal-profile">
     <h3 class="section-header"><span class="icon-user heading-icon"></span> Profile</h3>
     <div class="personal-analytics">
       <ul class="techniques-list">
-      <li>Birthday : </span> 25<sup>th</sup> June 2015</li>
-      <li>Nationality : </span> Indian</li>
-      <li>Marital Status : </span> Married</li>
-    </ul>
+        <li>Birthday : </span> 25<sup>th</sup> June 2015</li>
+        <li>Nationality : </span> Indian</li>
+        <li>Marital Status : </span> Married</li>
+      </ul>
     </div>
     <div class="words-for-me">
       <p>In my leisure, I spend time on listening to music, social hangouts, browser internet for UI related stuff, check on the apps in playstore, etc. I also love to take random pictures with my newly bought DSLR camera.</p>
     </div>
   </section>
-  <section id="credits-section">
+  <section id="credits-section" class="section clearfix">
     Made with <i class="icon-heartbeat"></i>. Credits: Jagat Jeevan Sahoo <i class="icon-smile"></i>
   </section>
 </div>
 
 <a href="javascript:void(0);" data-href="resume-starts" class="go-to-top" id="go-to-top"><i class="icon-up-circled"></i></a>
 
-<script src="javascripts/jquery.min.js"></script>
+<script src="javascripts/lib/jquery.min.js"></script>
+<script src="javascripts/lib/circular-progressbar/jquery.percentageloader-0.1.js"></script>
 <script src="javascripts/app.js"></script>
 </body>
 </html>

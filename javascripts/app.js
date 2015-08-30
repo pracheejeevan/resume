@@ -1,6 +1,7 @@
 var setUpExcellence = function(){
   $("#proffessional-skills").find(".skill").each(function(){
     var skillPercent = $(this).data("skill-completed");
+    var skillset = $(this).data("skillset");
     $(this).find(".skill-completed").animate({
       width: skillPercent+'%'
     }, 810);
@@ -33,6 +34,15 @@ $("#go-to-top").on("click", function(){
 var startAllFunctions = function(){
   setUpExcellence();
   $("#go-to-top").hide();
+
+
+  $("#topLoader").percentageLoader({
+    width: 256,
+    height: 256,
+    value: "93%",
+    progress : 0.93
+  });
+
 };
 
 $(window).on("scroll", function(){
@@ -41,7 +51,6 @@ $(window).on("scroll", function(){
   }else{
     $("#go-to-top").hide();
   }
-
 });
 
 $(window).load(function(){

@@ -1,3 +1,4 @@
+$section-light-background-color: darken($body-background-color, 10%);
 $section-dark-background-color: lighten($primary-color, 40%)!default;
 $go-to-top-background: #eee!default;
 $go-to-top-text-color: $primary-color!default;
@@ -22,7 +23,7 @@ body{
   max-width: 960px;
   width: 100%;
   margin: 0 auto;
-  background: darken($body-background-color, 10%);
+  background: $section-light-background-color;
   display: none;
 }
 .section-header{
