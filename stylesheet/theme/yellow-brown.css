@@ -188,6 +188,48 @@ th {
     color: #333;
     color: white; }
 
+.event-in-the-timeline {
+  margin: 7.5px;
+  display: table;
+  width: 100%; }
+  .event-in-the-timeline .year,
+  .event-in-the-timeline .year-description {
+    display: table-cell;
+    vertical-align: middle; }
+  .event-in-the-timeline .year {
+    vertical-align: middle;
+    width: 50px; }
+    .event-in-the-timeline .year span {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      border: 10px solid #097380;
+      text-align: center;
+      line-height: 50px;
+      display: inline-block;
+      margin: 10px;
+      position: relative; }
+      .event-in-the-timeline .year span .event-arrow {
+        position: absolute;
+        font-size: 43px;
+        color: #097380; }
+        .event-in-the-timeline .year span .event-arrow.right {
+          right: -43px; }
+        .event-in-the-timeline .year span .event-arrow.left {
+          left: -43px; }
+  .event-in-the-timeline .year-description p {
+    margin: 10px;
+    background: #097380;
+    color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative; }
+    .event-in-the-timeline .year-description p b {
+      margin: 0 10px;
+      color: #f68c7f;
+      font-size: 1.1em; }
+
 .loader {
   position: absolute;
   top: 0;
@@ -212,7 +254,7 @@ th {
     font-size: 25px; }
 
 body {
-  background: white;
+  background: #fdedce;
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 17px; }
 
@@ -228,7 +270,7 @@ body {
   max-width: 960px;
   width: 100%;
   margin: 0 auto;
-  background: #fdedce;
+  background: #fbdb9d;
   display: none; }
 
 .section-header {
@@ -275,18 +317,18 @@ body {
     background-image: url("../../images/pattern.png");
     color: #333;
     color: white;
-    min-height: 50px;
+    min-height: 40px;
     text-decoration: none;
     width: 16.66667%;
     text-align: center;
-    line-height: 50px; }
+    line-height: 40px; }
 
 .my-profile-photo {
   background-color: #097380; }
   .my-profile-photo span {
     background-image: url("../../images/prachee-clipped.png");
     background-position: center;
-    background-size: auto 40px;
+    background-size: auto 30px;
     background-repeat: no-repeat;
     height: 30px;
     width: 30px;
@@ -386,14 +428,11 @@ body {
     box-sizing: border-box; }
 
   .words-for-me {
-    border-left: #0750e1 dashed 1px;
+    border-left: #F8AF1E dashed 1px;
     padding: 5px 15px; } }
 #credits-section {
   text-align: center;
-  padding: 5px;
-  background: #483002;
-  color: #333;
-  color: white; }
+  padding: 5px; }
 
 .icon-heartbeat,
 .icon-smile {

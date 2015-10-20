@@ -167,11 +167,14 @@ th {
 .skill {
   margin-bottom: 15px; }
   .skill .skill-container {
-    background: #111;
-    border: black solid 0;
-    position: relative; }
+    background: #444444;
+    border: #111111 solid 0;
+    position: relative;
+    -webkit-box-shadow: inset 0px 0px 36px 8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 0px 0px 36px 8px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0px 0px 36px 8px rgba(0, 0, 0, 0.75); }
   .skill .skill-completed {
-    background: black;
+    background: #111111;
     padding: 15px 0;
     float: left;
     width: 15%; }
@@ -181,6 +184,48 @@ th {
     top: 5px;
     color: #333;
     color: white; }
+
+.event-in-the-timeline {
+  margin: 7.5px;
+  display: table;
+  width: 100%; }
+  .event-in-the-timeline .year,
+  .event-in-the-timeline .year-description {
+    display: table-cell;
+    vertical-align: middle; }
+  .event-in-the-timeline .year {
+    vertical-align: middle;
+    width: 50px; }
+    .event-in-the-timeline .year span {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      border: 10px solid #111;
+      text-align: center;
+      line-height: 50px;
+      display: inline-block;
+      margin: 10px;
+      position: relative; }
+      .event-in-the-timeline .year span .event-arrow {
+        position: absolute;
+        font-size: 43px;
+        color: #111; }
+        .event-in-the-timeline .year span .event-arrow.right {
+          right: -43px; }
+        .event-in-the-timeline .year span .event-arrow.left {
+          left: -43px; }
+  .event-in-the-timeline .year-description p {
+    margin: 10px;
+    background: #111;
+    color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative; }
+    .event-in-the-timeline .year-description p b {
+      margin: 0 10px;
+      color: #eeeeee;
+      font-size: 1.1em; }
 
 .loader {
   position: absolute;
@@ -242,6 +287,8 @@ body {
 .techniques-list {
   padding: 0;
   padding-left: 20px; }
+  .personal-analytics .techniques-list {
+    padding-left: 5px; }
   .techniques-list li {
     list-style-type: none;
     padding: 0;
@@ -253,10 +300,10 @@ body {
 .go-to-top {
   position: fixed;
   font-size: 35px;
-  color: #111;
   right: 0;
   bottom: 0;
   background: #eee;
+  color: #111;
   display: none; }
 
 .settings {
@@ -264,20 +311,26 @@ body {
   flex-direction: row;
   justify-content: center; }
   .settings a {
+    background-image: url("../../images/pattern.png");
     color: #333;
     color: white;
-    min-height: 60px;
+    min-height: 40px;
     text-decoration: none;
     width: 16.66667%;
     text-align: center;
-    line-height: 60px; }
+    line-height: 40px; }
 
-.profile-photo {
-  background-image: url("../../images/prachee-clipped.png");
-  background-color: #111;
-  background-position: center;
-  background-size: auto 40px;
-  background-repeat: no-repeat; }
+.my-profile-photo {
+  background-color: #111; }
+  .my-profile-photo span {
+    background-image: url("../../images/prachee-clipped.png");
+    background-position: center;
+    background-size: auto 30px;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    margin-top: 10px; }
 
 .what-drives-me {
   background: #2b2b2b; }
@@ -372,13 +425,11 @@ body {
     box-sizing: border-box; }
 
   .words-for-me {
-    border-left: #888888 dashed 1px;
+    border-left: #111 dashed 1px;
     padding: 5px 15px; } }
 #credits-section {
   text-align: center;
-  padding: 5px;
-  background: #111;
-  color: #eeeeee; }
+  padding: 5px; }
 
 .icon-heartbeat,
 .icon-smile {
