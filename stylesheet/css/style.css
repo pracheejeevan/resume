@@ -309,6 +309,9 @@ body {
   color: #F8AF1E;
   display: none; }
 
+#get-resume-online {
+  display: none; }
+
 .settings {
   display: flex;
   flex-direction: row;
