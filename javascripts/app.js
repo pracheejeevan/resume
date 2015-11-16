@@ -2,10 +2,12 @@ var setUpExcellence = function(){
   $("#proffessional-skills").find(".skill").each(function(){
     var skillPercent = $(this).data("skill-completed");
     var skillset = $(this).data("skillset");
+    $(this).find(".skill-text").find(".percentage-to-show").html(" ("+skillPercent+ "%)");
+
     $(this).find(".skill-completed").animate({
       width: skillPercent+'%'
     }, 810);
-    $(this).find(".skill-text").append(" (" + skillPercent+ "%)");
+    // $(this).find(".skill-text").append(" (" + skillPercent+ "%)");
   });
 };
 
